@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vijaya Lakshmi - Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #007BFF;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    h2 {
+      color: #007BFF;
+    }
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+    a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      background-color: #007BFF;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Vijaya Lakshmi</h1>
+    <p>3rd Semester B.Tech CSE</p>
+  </header>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>
+      I am a Computer Science student passionate about programming and problem-solving. 
+      I enjoy working with C in VS Code, exploring data structures, and collaborating on GitHub projects.
+      My current goal is to earn a 3-star HackerRank badge to strengthen my portfolio.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li><a href="https://github.com/vijayalaksmi14/hello-world" target="_blank">Hello World Repository</a> — My first GitHub repo created during VS Code setup.</li>
+      <li><a href="https://github.com/vijayalaksmi14/pair-programming-log" target="_blank">Pair Programming Collaboration Log</a> — Documented teamwork using GitLens and Live Share.</li>
+      <li><a href="https://github.com/vijayalaksmi14/leetcode-solutions" target="_blank">LeetCode Solutions Repository</a> — Contains my solutions and progress on problem-solving tasks.</li>
+    </ul>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>C programming and debugging in VS Code</li>
+      <li>Git and GitHub workflow</li>
+      <li>Data structures and algorithms practice</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>You can reach me via my GitHub profile: 
+      <a href="https://github.com/vijayalaksmi14" target="_blank">github.com/vijayalaksmi14</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2026 Vijaya Lakshmi | Portfolio Blog</p>
+  </footer>
+</body>
+</html>
